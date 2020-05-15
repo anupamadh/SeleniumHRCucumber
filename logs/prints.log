@@ -1,6 +1,5 @@
-16:49:32.146 [main] INFO  hrapp.validateDashboard - Landed on Dashboard Page
-16:49:41.079 [main] DEBUG hrapp.validateDashboard - Selecting leave period
-16:50:07.741 [main] DEBUG hrapp.validateDashboard - Selecting leave period
-16:53:34.034 [main] INFO  hrapp.validateDashboard - Landed on Dashboard Page
-16:53:42.655 [main] DEBUG hrapp.validateDashboard - Selecting leave period
-16:54:09.938 [main] DEBUG hrapp.validateDashboard - Selecting leave period
+17:09:47.862 [main] DEBUG hrapp.validateDashboard - Selecting leave period
+17:10:14.812 [main] DEBUG hrapp.validateDashboard - Selecting leave period
+17:13:20.131 [main] INFO  hrapp.validateDashboard - Landed on Dashboard Page
+17:13:28.519 [main] DEBUG hrapp.validateDashboard - Selecting leave period
+17:13:55.825 [main] DEBUG hrapp.validateDashboard - Selecting leave period

@@ -51,7 +51,7 @@ public WebDriver initializeDriver() throws IOException {
 
 }
 
-/**public String getScreenShotPath(String testCaseName,WebDriver driver) throws IOException
+public String getScreenShotPath(String testCaseName,WebDriver driver) throws IOException
 {
 	TakesScreenshot ts=(TakesScreenshot) driver;
 	File source =ts.getScreenshotAs(OutputType.FILE);
@@ -60,5 +60,5 @@ public WebDriver initializeDriver() throws IOException {
 	return destinationFile;
 
 
-}*/
+}
 }
