@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="Validating Dashboard(failed)" verbose="0">
+  <test thread-count="5" name="Validating User Login(failed)" verbose="0">
     <classes>
-      <class name="hrapp.validateDashboard">
+      <class name="cucumberOptions.TestRunner">
         <methods>
-          <include name="AddEntitlement" invocation-numbers="1"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- hrapp.validateDashboard -->
+      </class> <!-- cucumberOptions.TestRunner -->
     </classes>
-  </test> <!-- Validating Dashboard(failed) -->
-  <test thread-count="5" name="Validate Assign Leave(failed)" verbose="0">
-    <classes>
-      <class name="hrapp.validateAssignLeave">
-        <methods>
-          <include name="tearDown"/>
-          <include name="assignLeave"/>
-        </methods>
-      </class> <!-- hrapp.validateAssignLeave -->
-    </classes>
-  </test> <!-- Validate Assign Leave(failed) -->
+  </test> <!-- Validating User Login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

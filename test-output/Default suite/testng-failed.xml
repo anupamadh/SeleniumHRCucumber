@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrapp.validateAssignLeave">
+      <class name="cucumberOptions.TestRunner">
         <methods>
-          <include name="tearDown"/>
-          <include name="assignLeave"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- hrapp.validateAssignLeave -->
+      </class> <!-- cucumberOptions.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

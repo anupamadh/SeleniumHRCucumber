@@ -1,4 +1,6 @@
+/Users/anupamadhir/workspace/SeleniumHRProject/src/test/java/cucumberOptions/TestRunner.java
 /Users/anupamadhir/workspace/SeleniumHRProject/src/test/java/utils/jdbcConnection.java
+/Users/anupamadhir/workspace/SeleniumHRProject/src/test/java/stepDefinitions/stepDefinition.java
 /Users/anupamadhir/workspace/SeleniumHRProject/src/test/java/hrapp/validateAssignLeave.java
 /Users/anupamadhir/workspace/SeleniumHRProject/src/test/java/utils/ExcelUtilsDemo.java
 /Users/anupamadhir/workspace/SeleniumHRProject/src/test/java/hrapp/validateDashboard.java

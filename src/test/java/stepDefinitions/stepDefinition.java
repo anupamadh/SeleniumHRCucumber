@@ -35,18 +35,18 @@ public class stepDefinition extends base{
     	lp.getLoginButton().click();
     }
 
+
     @Then("^Verify that user is successfully logged in$")
     public void verify_that_user_is_successfully_logged_in() throws Throwable {
     	dashboardPage dp = new dashboardPage(driver);
     	Assert.assertEquals(dp.getWelcome().getText(), "Welcome Admin");
-		
     }
-    
+
+   
+
     @And("^close browsers$")
     public void close_browsers() throws Throwable {
         driver.quit();
     }
-
-   
 
 }

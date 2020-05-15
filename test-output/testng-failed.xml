@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Validating User Login(failed)">
-    <classes>
-      <class name="hrapp.HomePage">
-        <methods>
-          <include name="basePageNavigation"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- hrapp.HomePage -->
-    </classes>
-  </test> <!-- Validating User Login(failed) -->
-  <test thread-count="5" name="Validating Dashboard(failed)">
-    <classes>
-      <class name="hrapp.validateDashboard">
-        <methods>
-          <include name="validateAppDashboard"/>
-        </methods>
-      </class> <!-- hrapp.validateDashboard -->
-    </classes>
-  </test> <!-- Validating Dashboard(failed) -->
-  <test thread-count="5" name="Validating Add Entitlement(failed)">
-    <classes>
-      <class name="hrapp.validateAddEntitlement">
-        <methods>
-          <include name="AddEntitlement" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- hrapp.validateAddEntitlement -->
-    </classes>
-  </test> <!-- Validating Add Entitlement(failed) -->
+  <listeners>
+    <listener class-name="hrapp.Listeners"/>
+  </listeners>
   <test thread-count="5" name="Validate Assign Leave(failed)">
     <classes>
       <class name="hrapp.validateAssignLeave">

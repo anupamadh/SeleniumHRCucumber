@@ -12,7 +12,7 @@ public class jdbcConnection {
 	String username = null;
 	String password = null;
 	public void getConnection() throws SQLException {
-	Connection con=DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/Qadbt", "root", "Chhavi123");
+	Connection con=DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/Qadbt", "root", "xxxx");
 	Statement s=con.createStatement();
 	ResultSet rs=s.executeQuery("select * from employee");
 	while(rs.next())

@@ -3,6 +3,9 @@ package hrapp;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -11,9 +14,11 @@ import resources.base;
 import utils.jdbcConnection;
 
 public class HomePage extends base{
+	public static Logger log = LogManager.getLogger(base.class.getName());
 	
 @BeforeTest	
 public void initialize() throws IOException {
+	BasicConfigurator.configure();
 	driver = initializeDriver();
 }
 

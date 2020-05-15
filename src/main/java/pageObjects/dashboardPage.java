@@ -28,8 +28,9 @@ public dashboardPage(WebDriver driver) {
 	this.driver = driver;
 }
 
+
 public WebElement getWelcome() {
-	return driver.findElement(welcome);
+			return driver.findElement(welcome);
 }
 
 public WebElement getAddEntitlements() {

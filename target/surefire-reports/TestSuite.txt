@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.72 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.948 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestRunner.feature  Time elapsed: 24.348 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#welcome
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUPAMAs-MBP', ip: 'fe80:0:0:0:1c07:7a00:a185:d22b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.2'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using css selector=#welcome
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANUPAMAs-MBP', ip: 'fe80:0:0:0:1c07:7a00:a185:d22b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.2'
+Driver info: driver.version: RemoteWebDriver
+
