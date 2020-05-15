@@ -5,4 +5,5 @@
 - Assigns leave and check if jquery message appears. This message fades away after a few seconds. It is a confirmation that the leave has been successfully assigned.
 Add leave entitlements from excel file.
 - Log4j2 logging
-
+- To Run test with cuccumber change pom.xml to reference testngCucumber.xml.
+- To Run test with TestNG change pom.xml to reference testng.xml
