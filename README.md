@@ -8,4 +8,4 @@ Add leave entitlements from excel file.
 - To Run test with cuccumber change pom.xml to reference testngCucumber.xml.
 - To Run test with TestNG change pom.xml to reference testng.xml
 - Added Extent Reports 
-- Added Screenshot on failure to extent report
+- Added Screenshot on failure to Extent Reports
