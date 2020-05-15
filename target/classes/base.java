@@ -22,8 +22,8 @@ public WebDriver initializeDriver() throws IOException {
 	prop = new Properties();
 	FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/resources/data.properties");
 	prop.load(fis);
-//	String browserName = prop.getProperty("browser");
-	String browserName = System.getProperty("browser");
+	String browserName = prop.getProperty("browser");
+//	String browserName = System.getProperty("browser");
 	if (browserName.contains("chrome")) {
 		ChromeOptions options = new ChromeOptions();
 		if (browserName.contains("headless"))
