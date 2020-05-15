@@ -7,3 +7,5 @@ Add leave entitlements from excel file.
 - Log4j2 logging
 - To Run test with cuccumber change pom.xml to reference testngCucumber.xml.
 - To Run test with TestNG change pom.xml to reference testng.xml
+- Added Extent Reports 
+- Added Screenshot on failure to extent report
